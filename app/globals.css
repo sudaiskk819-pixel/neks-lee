@@ -1,0 +1,38 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #F8F9FF; color: #111827; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; }
+.neks-nav { max-width: 1280px; margin: 12px auto 0; display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; flex-wrap: wrap; gap: 12px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+.neks-logo { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 900; }
+.neks-links { display: flex; gap: 20px; font-size: 14px; font-weight: 600; }
+.neks-links a.active { color: #7C3AED; }
+.neks-nav-right { display: flex; gap: 10px; align-items: center; }
+.neks-toggle { width: 38px; height: 38px; border-radius: 999px; border: 1px solid #ddd; background: white; font-size: 16px; }
+.neks-login { padding: 9px 18px; border: 1px solid #ddd; border-radius: 999px; background: white; font-weight: 700; font-size: 14px; }
+.neks-signup { padding: 9px 18px; border-radius: 999px; background: #7C3AED; color: white; font-weight: 700; font-size: 14px; }
+.neks-hamburger { display: none; width: 38px; height: 38px; border-radius: 10px; border: 1px solid #ddd; background: white; font-size: 18px; }
+.neks-hero { max-width: 1280px; margin: 0 auto; padding: 28px 20px; display: flex; gap: 26px; flex-wrap: wrap; }
+.neks-hero-left { flex: 1; min-width: 300px; max-width: 620px; }
+.neks-badge { background: #EDE9FE; color: #6D28D9; padding: 6px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+.neks-hero-left h1 { font-size: 56px; font-weight: 900; line-height: 1.05; margin-top: 16px; }
+.neks-gradient { color: #7C3AED; }
+.neks-hero-left .desc { margin-top: 14px; color: #555; font-size: 16px; line-height: 1.6; }
+.neks-btns { margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap; }
+.neks-btn-primary { padding: 13px 22px; border-radius: 999px; background: #7C3AED; color: white; font-weight: 800; }
+.neks-btn-secondary { padding: 13px 22px; border-radius: 999px; background: white; border: 1px solid #ddd; font-weight: 700; }
+.neks-stats { margin-top: 18px; display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; color: #555; }
+.neks-hero-right { flex: 1; min-width: 300px; max-width: 520px; display: flex; flex-direction: column; gap: 14px; }
+.neks-card { background: white; border-radius: 16px; padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.07); }
+.neks-card-img { background: #EDE9FE; border-radius: 12px; height: 150px; display: flex; align-items: center; justify-content: center; font-size: 44px; }
+.neks-card h3 { margin-top: 10px; font-size: 17px; }
+.neks-card p { color: #666; font-size: 13px; margin-top: 4px; }
+.neks-join-btn { margin-top: 10px; padding: 8px 14px; border: none; border-radius: 999px; background: #7C3AED; color: white; font-weight: 700; }
+.neks-section { max-width: 1280px; margin: 0 auto; padding: 12px 20px 20px; }
+.neks-section h2 { font-size: 26px; font-weight: 900; }
+.neks-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 14px; }
+.neks-grid-card { background: white; border-radius: 16px; padding: 16px; box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
+.neks-grid-card .emoji { font-size: 36px; }
+.neks-grid-card h3 { margin-top: 8px; }
+.neks-grid-card p { font-size: 13px; color: #666; margin-top: 4px; }
+.neks-join-small { margin-top: 10px; padding: 6px 12px; border: 1px solid #ddd; border-radius: 999px; background: white; font-weight: 700; }
+@media (max-width: 768px) { .neks-links { display: none; } .neks-hamburger { display: block; } .neks-hero-left h1 { font-size: 40px; } }
