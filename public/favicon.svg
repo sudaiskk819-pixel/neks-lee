@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img">
+  <defs>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00eaff"/><stop offset=".48" stop-color="#0878ff"/><stop offset="1" stop-color="#d000ff"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".45" stop-color="#b9c6e8"/><stop offset="1" stop-color="#eef4ff"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00efff"/><stop offset=".55" stop-color="#087dff"/><stop offset="1" stop-color="#3525df"/></linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#612cff"/><stop offset="1" stop-color="#f000df"/></linearGradient>
+  </defs>
+  <rect width="1200" height="1200" rx="80" fill="#030513"/>
+  <circle cx="600" cy="585" r="525" fill="none" stroke="url(#orbit)" stroke-width="12"/>
+  <g transform="translate(0,-5)" stroke="#dceaff" stroke-width="8" stroke-linejoin="round"><path d="M285 235 L325 145 L420 205 L485 65 L560 205 L650 135 L680 250 Q490 315 315 260 Z" fill="url(#metal)"/><path d="M315 260 Q495 325 680 250 L674 276 Q492 350 320 286 Z" fill="#8196c4"/></g>
+  <g stroke-linejoin="round"><path d="M285 700 L325 315 Q332 270 375 300 L760 625 L760 315 L915 315 L915 770 L760 770 L450 510 L430 770 L285 770 Z" fill="url(#blue)" stroke="#00dfff" stroke-width="8"/><path d="M360 315 L470 315 L790 600 L790 315 L900 315 L900 470 L790 470 L470 770 L330 770 L345 610 L650 610 Z" fill="url(#purple)" opacity=".88"/><path d="M380 310 L480 310 L785 575 L785 310 L890 310 L890 440 L785 440 L455 740 L350 740 L365 610 L665 610 Z" fill="url(#metal)" stroke="#eaf4ff" stroke-width="7"/></g>
+  <path d="M150 650 C350 790 690 590 1015 350 C1095 290 1115 330 1070 390 C820 710 420 840 180 720 C110 685 105 660 150 650 Z" fill="url(#orbit)" stroke="#72f4ff" stroke-width="5"/>
+  <text x="600" y="885" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" font-style="italic" fill="url(#metal)">NEKS-<tspan fill="url(#orbit)">LEE</tspan></text>
+  <text x="600" y="950" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="4" fill="#f2f5ff">LEARN  •  EARN  •  CONNECT  •  GROW</text>
+</svg>
